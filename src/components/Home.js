@@ -22,8 +22,8 @@ const Home = (props) => {
   useEffect(() => {
    
     db.collection("user").onSnapshot((snapshot) => {
-      snapshot.docs.map((doc) => {
-    
+      snapshot.docs.forEach((doc) => {
+  
         switch (doc.data().type) {
           case "recommend":
             recommends = [...recommends, { id: doc.id, ...doc.data() }];
