@@ -49,8 +49,7 @@ const Wrap = styled.div`
   overflow: hidden;
   position: relative;
   transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-  border: 3px solid rgba(249, 249, 249, 0.1);
-
+  
   img {
     inset: 0px;
     display: block;
@@ -63,13 +62,13 @@ const Wrap = styled.div`
     z-index: 1;
     top: 0;
   }
-
   &:hover {
     box-shadow: rgb(0 0 0 / 80%) 0px 40px 58px -16px,
       rgb(0 0 0 / 72%) 0px 30px 22px -10px;
     transform: scale(1.05);
-    border-color: rgba(249, 249, 249, 0.8);
+   
   }
 `;
+
 
 export default Recommends;

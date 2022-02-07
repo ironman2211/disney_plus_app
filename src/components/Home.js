@@ -76,7 +76,7 @@ const Container = styled.main`
   padding: 0 calc(3.5vw + 5px);
 
   &:after {
-    background: url("/images/home-background.png") center center / cover
+    background-image: linear-gradient(to bottom, #141b29, #0c111b 300px);
       no-repeat fixed;
     content: "";
     position: absolute;
