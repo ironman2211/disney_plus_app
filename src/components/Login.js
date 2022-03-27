@@ -72,7 +72,7 @@ const CTALogoOne = styled.img`
 
 const SignUp = styled.a`
   font-weight: bold;
-  color: #f9f9f9;
+  color: #000000;
   background-color: #0063e5;
   margin-bottom: 12px;
   width: 100%;
@@ -82,6 +82,7 @@ const SignUp = styled.a`
   border: 1px solid transparent;
   border-radius: 4px;
 
+  background-color:yellow;
   &:hover {
     background-color: #0483ee;
   }
@@ -101,6 +102,7 @@ const CTALogoTwo = styled.img`
   display: inline-block;
   vertical-align: bottom;
   width: 100%;
+  
 `;
 
 export default Login;

@@ -113,7 +113,7 @@ const Nav = styled.nav`
   left: 0;
   right: 0;
   height: 70px;
-  background-color: #090b13;
+  background-color: #000000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,6 +158,7 @@ const NavMenu = styled.div`
       min-width: 20px;
       width: 20px;
       z-index: auto;
+      color:yellow;
     }
 
     span {
@@ -206,13 +207,13 @@ const Login = styled.a`
   padding: 8px 16px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  border: 1px solid #f9f9f9;
+  border: 1px solid yellow;
   border-radius: 4px;
   transition: all 0.2s ease 0s;
-
+  color:yellow;
   &:hover {
     background-color: #f9f9f9;
-    color: #000;
+    color: yellow;
     border-color: transparent;
   }
 `;
